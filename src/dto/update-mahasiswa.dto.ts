@@ -3,7 +3,7 @@ import { IsEnum, IsOptional, IsString, Length } from 'class-validator';
 import { Jenis_kelamin } from '@prisma/client';
 
 export class updateMahasiswaDTO {
-  @ApiProperty({ description: 'Nama Mahasiswa', type: String, example: 'Alisultn', required: false })
+  @ApiProperty({ description: 'Nama Mahasiswa', type: String, example: 'Nurmilani', required: false })
   @IsString()
   @IsOptional()
   @Length(1, 30)

@@ -5,7 +5,7 @@ export class loginUserDTO {
   @ApiProperty({
     description: 'username',
     type: String,
-    example: 'Alisultn1231',
+    example: 'Nurmilani1231',
     required: true,
   })
   @IsString()

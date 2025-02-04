@@ -6,7 +6,7 @@ import { JwtModule } from '@nestjs/jwt';
 import { AuthModule } from './auth.module';
 
 @Module({
-  imports: [JwtModule.register({secret: 'Alisultn',global: true}),AuthModule],
+  imports: [JwtModule.register({secret: 'Nurmilani',global: true}),AuthModule],
   controllers: [AppController],
   providers: [AppService, PrismaService],
 })

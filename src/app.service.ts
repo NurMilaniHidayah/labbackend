@@ -103,7 +103,7 @@ export class AppService {
   }
 
   getHello(): string {
-    return 'Hello World! Alisultn';
+    return 'Hello World! Nurmilani';
   }
 
   async getMahasiswa() {
